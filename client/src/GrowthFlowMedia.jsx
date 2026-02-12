@@ -184,7 +184,7 @@ const [isServicesOpen, setIsServicesOpen] = useState(false);
       return;
     }   
     axios
-      .post("https://localhost:8000/web/api/enquiry/enquiry-insert", formData)
+      .post("https://growthflowmedia-esxn.vercel.app/web/api/enquiry/enquiry-insert", formData)
       .then((res) => {
         toast.success("Message Sent!!!");
         setFormData({ name: '',
