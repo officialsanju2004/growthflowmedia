@@ -23,9 +23,9 @@ let enquiryInsert = async (req, res) => {
         <h3>New Message</h3>
         <p><b>Name:</b> ${name}</p>
         <p><b>Email:</b> ${email}</p>
-        <p><b>Subject:</b> ${phone}</p>
-        <p><b>Pick up:</b> ${callback}</p>
-        <p><b>Dropoff:</b> ${service}</p>
+        <p><b>Phone:</b> ${phone}</p>
+        <p><b>Preferred Callback:</b> ${callback}</p>
+        <p><b>Service:</b> ${service}</p>
        
       `,
     };
