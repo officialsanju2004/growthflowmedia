@@ -410,7 +410,7 @@ const serviceItems = [
              'Lead Generation'
                          ].map((option, i) => (
                            <label key={i} className="flex items-center gap-3 bg-gray-100 px-3 sm:px-4 py-2 sm:py-3 rounded cursor-pointer hover:bg-gray-800">
-                             <input type="radio" name="service"  value={formData.service}
+                             <input type="radio" name="service"  value={service} checked ={formdata.service===option}
                                onChange={handleChange}className="w-4 h-4" />
                              <span className="text-black text-xs sm:text-sm">{option}</span>
                            </label>
