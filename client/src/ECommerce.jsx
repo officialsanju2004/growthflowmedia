@@ -240,7 +240,7 @@ const serviceItems = [
 
             {/* Mobile Menu Button */}
             <button 
-              className="lg:hidden p-2"
+              className="lg:hidden p-2 text-black"
               onClick={() => setMenuOpen(!menuOpen)}
             >
               <Menu size={24} />
@@ -313,7 +313,7 @@ const serviceItems = [
 
           {/* Mobile Menu */}
           {menuOpen && (
-            <div className="lg:hidden mt-4 bg-white rounded-2xl p-4 shadow-lg">
+            <div className="lg:hidden mt-4 bg-white text-black rounded-2xl p-4 shadow-lg">
               <ul className="cursor-pointer space-y-3">
                  <li  onClick={()=>{navigate('/')}}className="py-2 border-b border-gray-100">
                    Home
