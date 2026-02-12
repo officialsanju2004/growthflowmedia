@@ -154,7 +154,7 @@ navigate("/");
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-6 md:mb-0 md:mr-6">
               <h3 className="font-bold text-gray-800 mb-2">Need immediate assistance?</h3>
-              <p className="text-gray-600">Call us at <span className="font-semibold"> +1 (209) 395-8481</span> during business hours.</p>
+              <p className="text-gray-600">Call us at <span className="font-semibold"> +91 9646174266</span> during business hours.</p>
             </div>
            
             <div className="flex flex-col sm:flex-row gap-4">
@@ -191,7 +191,7 @@ navigate("/");
 
         {/* Footer */}
         <div className="text-center mt-10 text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} northstarautologistics.com. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} growthflowmedia.com All rights reserved.</p>
                <span>
           Developed and Managed by{" "}
           <strong className="text-[#B23A2F] mt-2"><a href='https://growthflowmedia.com'>GROWTH FLOW MEDIA</a></strong>
